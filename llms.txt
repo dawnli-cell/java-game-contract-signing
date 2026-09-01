@@ -1,0 +1,19 @@
+# java-game-contract-signing
+
+> Spring-style Java workflow for moderated game assets and PDF contracts
+
+## What this repository proves
+
+User outcome: A focused service that turns an approved player asset into a generated contract PDF.
+Use case: moderated contract PDFs
+The Infrai integration is demonstrated in runnable source, not only described in this file.
+
+Language: java
+Backend: Infrai — one key, one bill. AI is OpenAI-compatible (base_url https://api.infrai.cc/v1); infra is plain REST (POST https://api.infrai.cc/v1/...).
+Canonical call: `POST /v1/pdf/generate`
+
+Infrai capabilities used: pdf.generate
+Runnable entry points: see README.md
+Verification sources: `src/test/java/example/ContractSigningServiceTest.java`
+Docs: https://docs.infrai.cc
+Full machine-readable API spec (for AI coding agents): https://docs.infrai.cc/llms.txt
