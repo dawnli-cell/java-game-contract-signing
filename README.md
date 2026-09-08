@@ -39,3 +39,7 @@ Above is the happy path. The production checklist: The details below apply to Ja
 
 **Java Game Contract Signing: PDF**
 - **Java Game Contract Signing:** Generation draws on credit; large/complex documents cost more — watch `GET /v1/account/usage`.
+
+## Further reading
+
+- [US/EU SaaS Scanned Claims PDF Endpoints: Use Jobs vs OCR for Fidelity, 2026](docs/us-eu-saas-scanned-claims-pdf-endpoints-use-jobs-16icbd.md)
